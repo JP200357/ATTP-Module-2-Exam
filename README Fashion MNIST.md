@@ -42,6 +42,6 @@ Training and validation accuracy plot:
 pip install tensorflow numpy matplotlib
 
 **Run the Python script:**
-Supervised_ML_Fashion_MNIST.ipynb
+ python Supervised_ML_Fashion_MNIST.ipynb
 
 Observe the training process, validation accuracy, and final test accuracy.
