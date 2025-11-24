@@ -4,39 +4,39 @@ This project demonstrates a **feedforward neural network** implemented in Tensor
 ## Project Structure
 
 1.**Data Loading and Splitting**
-Training set: 60,000 images.
-Test set: 10,000 images.
-Validation set: 10% of training data (6,000 images)
+-Training set: 60,000 images.
+-Test set: 10,000 images.
+-Validation set: 10% of training data (6,000 images)
 
 2.**Data Preprocessing**
-Normalization: Pixel values scaled from 0–255 to 0–1.
-Flattening: 28×28 images converted to 784-dimensional vectors.
-One-hot encoding for labels.
+-Normalization: Pixel values scaled from 0–255 to 0–1.
+-Flattening: 28×28 images converted to 784-dimensional vectors.
+-One-hot encoding for labels.
 
 3.**Model Architecture**
-Input layer: 784 neurons.
-Hidden layer: 128 neurons, ReLU activation.
-Output layer: 10 neurons, softmax activation.
+-Input layer: 784 neurons.
+-Hidden layer: 128 neurons, ReLU activation.
+-Output layer: 10 neurons, softmax activation.
 
 4.**Training**
-Optimizer: Adam.
-Loss function: Categorical Crossentropy.
-Epochs: 15.
-Batch size: 128.
-Validation data: 6,000 images.
+-Optimizer: Adam.
+-Loss function: Categorical Crossentropy.
+-Epochs: 15.
+-Batch size: 128.
+-Validation data: 6,000 images.
 
 5.**Results**
-Training and validation accuracy improved steadily across epochs.
-Loss decreased consistently during training.
+-Training and validation accuracy improved steadily across epochs.
+-Loss decreased consistently during training.
 
 6.**Visualization**
 Training and validation accuracy plot:
 
 **Requirements**
-Python 3.8+.
-TensorFlow 2.x.
-NumPy.
-Matplotlib.
+-Python 3.8+
+-TensorFlow 2.x
+-NumPy
+-Matplotlib
 
 **Install dependencies:**
 pip install tensorflow numpy matplotlib
