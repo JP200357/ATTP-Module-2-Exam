@@ -50,7 +50,7 @@ pip install gymnasium torch numpy matplotlib
 
 
 **Run the script:**
-python reinforce_mountaincar.py
+ python ATTP_Mountain_car_v0.ipynb
 
 
 Observe training progress and moving average of returns.
